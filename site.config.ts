@@ -14,7 +14,7 @@ export default siteConfig({
   author: 'vantezzen',
 
   // open graph metadata (optional)
-  description: 'vantezzen's Blog',
+  description: '',
 
   // social usernames (optional)
   twitter: 'vantezzen',
