@@ -55,6 +55,8 @@ export default class MyDocument extends Document {
           <Main />
 
           <NextScript />
+
+          <script defer src="https://a.vantezzen.io/script.js" data-website-id="55fa051f-6d54-4cf2-8072-75968891dd77"></script>
         </body>
       </Html>
     )
