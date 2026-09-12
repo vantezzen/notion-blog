@@ -23,16 +23,6 @@ export const metadata: Metadata = {
   title: config.name,
   description: config.description,
   manifest: '/manifest.json',
-  icons: {
-    shortcut: '/favicon.ico',
-    icon: [
-      {
-        url: '/favicon.png',
-        type: 'image/png',
-        sizes: '32x32'
-      }
-    ]
-  },
   appleWebApp: {
     capable: true,
     statusBarStyle: 'black'
