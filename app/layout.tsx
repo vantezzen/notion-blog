@@ -85,6 +85,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     <html lang='en' suppressHydrationWarning>
       <body>
         <Providers>{children}</Providers>
+        <script defer src="https://a.vantezzen.io/script.js" data-website-id="1e502fe1-9ff0-4db1-bc9e-d83f67990539"></script>
       </body>
     </html>
   )
