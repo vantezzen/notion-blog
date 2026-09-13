@@ -13,5 +13,14 @@ export default {
     formats: ['image/avif', 'image/webp'],
     dangerouslyAllowSVG: true,
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;"
-  }
+  },
+  redirects() {
+    return [
+      {
+        source: '/building-liquid-glass-on-the-web',
+        destination: '/liquid-glass',
+        permanent: true,
+      },
+    ]
+  },
 }
